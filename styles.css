@@ -7,10 +7,20 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.blurb {
+    background-color: #262626;
+}
+
 .blurb h2 {
    color: #e61000;
    font-weight: 100;
    font-size: 2.5rem;
+}
+
+.blurb h3 {
+   color: #e61000;
+   font-weight: 100;
+   font-size: 1.5rem;
 }
 
 .blurb p {
@@ -32,9 +42,15 @@ body {
     margin-bottom: 100px;
 }
 
+.dropdown li {
+    font-size: 1rem;
+    text-align: center;
+}
+
 #mainNavbar {
     font-size: 1.25rem;
-    font-weight: 100;    
+    font-weight: 100;
+    margin: 25px;        
 }
 
 #mainNavbar .nav-link {
@@ -43,6 +59,19 @@ body {
 
 #mainNavbar .nav-link:hover {
     color: #e61000;
+}
+
+#mainNavbar .dropdown-menu {
+    background-color: #262626;
+}
+
+#mainNavbar .dropdown-item {
+    color: #FFFFFF;
+}
+
+#mainNavbar .dropdown-item:hover {
+    color: #e61000;
+    background-color: #020202;
 }
 
 #mainNavbar .navbar-brand {
