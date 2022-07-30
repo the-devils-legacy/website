@@ -3,18 +3,27 @@
 } */
 
 body {
-    background: #020202;
+    background: #181818;
     font-family: "Nunito", sans-serif;
 }
 
 .blurb {
-    background-color: #262626;
+    padding: 100px;
+    border-style: double;
+    border-color: #020202a6;
+    border-width: 1rem;
+}
+
+.blurb h1 {
+   color: #e61000;
+   font-weight: 100;
+   font-size: 3.5rem;
 }
 
 .blurb h2 {
    color: #e61000;
    font-weight: 100;
-   font-size: 2.5rem;
+   font-size: 3.5rem;
 }
 
 .blurb h3 {
@@ -42,15 +51,15 @@ body {
     margin-bottom: 100px;
 }
 
-.dropdown li {
-    font-size: 1rem;
-    text-align: center;
+.dropdown-divider {
+    color: #FFFFFF;
 }
 
 #mainNavbar {
     font-size: 1.25rem;
     font-weight: 100;
-    margin: 25px;        
+    margin: 25px;
+    background: #020202a6;
 }
 
 #mainNavbar .nav-link {
@@ -62,7 +71,7 @@ body {
 }
 
 #mainNavbar .dropdown-menu {
-    background-color: #262626;
+    background: #020202a6;
 }
 
 #mainNavbar .dropdown-item {
@@ -71,7 +80,7 @@ body {
 
 #mainNavbar .dropdown-item:hover {
     color: #e61000;
-    background-color: #020202;
+    background: #020202a6;
 }
 
 #mainNavbar .navbar-brand {
@@ -80,17 +89,16 @@ body {
     font-weight: 600;
 }
 
-#headingGroup span {
+#offcanvasNavbar {
+    background-color: #020202a6;
+}
+
+#offcanvasNavbar h5 {
     color: #e61000;
 }
 
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
-}
-
 .navbar.scrolled {
-    background: #262626a6;
+    background: #020202a6;
     transition: background 500ms;
 }
 
